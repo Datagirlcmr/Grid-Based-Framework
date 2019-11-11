@@ -1,0 +1,21 @@
+$font-weight: (
+  'default': 400,
+  'normal' : 500,
+  'bold' : 700,
+  'bolder': 900
+);
+
+@function weights($weight-name){
+  @return map-get($font-weight, $weight-name); 
+}
+
+@mixin headers ($font-size) {
+  font-size: $font-size;
+  font-weight: weights(bolder);
+}
+
+@mixin images ($url) {
+  width: 100%;
+  background: url($url) 0 0 no-repeat;
+  background-position: cover;
+}

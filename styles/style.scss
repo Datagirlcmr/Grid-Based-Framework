@@ -1,0 +1,23 @@
+@import './colors';
+@import './mixins';
+ 
+
+h1 {
+  @include headers (25px);
+}
+
+h2 {
+  @include headers (23px);
+}
+h3 {
+  @include headers (20px);
+}
+h4 {
+  @include headers (18px);
+}
+h5 {
+  @include headers (16px);
+}
+h6 {
+  @include headers (14px);
+}
