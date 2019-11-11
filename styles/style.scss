@@ -1,23 +1,136 @@
-@import './colors';
-@import './mixins';
- 
+@import "./colors";
+@import "./mixins";
 
+//resets
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// headers
 h1 {
-  @include headers (25px);
+  @include headers(25px);
 }
 
 h2 {
-  @include headers (23px);
+  @include headers(23px);
 }
 h3 {
-  @include headers (20px);
+  @include headers(20px);
 }
 h4 {
-  @include headers (18px);
+  @include headers(18px);
 }
 h5 {
-  @include headers (16px);
+  @include headers(16px);
 }
 h6 {
-  @include headers (14px);
+  @include headers(14px);
+}
+
+p,
+span {
+  @include paragraphs;
+}
+
+//font-weights
+
+.font-normal{
+  font-weight: weights(normal);
+}
+
+.font-bold{
+  font-weight: weights(bold);
+}
+
+.font-bolder{
+  font-weight: weights(bolder);
+}
+
+//borders
+.border {
+  border: $border;
+}
+
+.border-right {
+  border-right: $border;
+}
+
+.border-left {
+  border-left: $border;
+}
+
+.border-top {
+  border-top: $border;
+}
+
+.border-bottom {
+  border-bottom: $border;
+}
+
+//text
+.text-danger {
+  color: $danger;
+}
+
+.text-white {
+  color: $light;
+}
+
+.text-black {
+  color: $dark;
+}
+.text-primary {
+  color: $primary;
+}
+
+.text-secondary {
+  color: $danger;
+}
+
+.text-secondary {
+  color: $secondary;
+}
+
+.text-info {
+  color: $info;
+}
+
+//backgrouunds
+.bg-microverse {
+  background-color: $microverse;
+}
+
+.bg-microsecond {
+  background-color: $microsecond;
+}
+
+.bg-white {
+  background-color: $light;
+}
+
+.bg-highlight {
+  background-color: $warning;
+}
+
+//navbars
+.navlist {
+  @include navbars;
+  display: inline;
+}
+
+//links
+a {
+  text-decoration: none;
+  color: $info;
+}
+
+a:hover{
+  color: lighten($dark, 40%);
+  text-decoration: underline;
+}
+
+li {
+  @include lists;
 }
