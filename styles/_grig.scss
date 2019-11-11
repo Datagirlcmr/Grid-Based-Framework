@@ -1,0 +1,32 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  min-width: inherit;
+}
+
+@mixin col($val1, $val2) {
+  grid-column-start: $val1;
+  grid-column-end: $val2;
+}
+
+@mixin sm($st, $ed) {
+  @media screen and (min-width: 768px) {
+    grid-column-start: $st;
+    grid-column-end: $ed;
+  }
+}
+
+.p1 {
+  @include col(3, 13);
+  background-color: aqua;
+
+}
+
+.p2 {
+  @include col(1, 13);
+  background-color: blueviolet;
+}
+
+.p1 {
+  @include sm(2, 8)
+}
