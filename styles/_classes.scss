@@ -1,0 +1,180 @@
+@mixin lists {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color: lighten($dark, 40%);
+}
+
+.list {
+  @include lists();
+}
+
+
+@mixin navbars {
+  text-decoration: none;
+  padding: 1vw;
+  
+}
+
+.nav {
+  @include navbars();
+  align-items: baseline;
+  padding: 50px;
+}
+
+
+@mixin paragraphs {
+  font-size: 20px;
+  line-height: 1.65;
+  color: #fff;
+  margin-right: 30px;
+  margin-top: 15px;
+  font-family: Montserrat;
+}
+
+.na-logo{
+  font-family: maven pro;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+    text-align: left;
+}
+
+.p {
+  @include paragraphs();
+}
+.text-mic{
+color:$microverse
+}
+
+.text-danger {
+  color: $danger;
+}
+
+.text-white {
+  color: $light;
+}
+
+.text-black {
+  color: $dark;
+}
+
+.text-primary {
+  color: $primary;
+}
+
+.text-secondary {
+  color: $danger;
+}
+
+.text-secondary {
+  color: $secondary;
+}
+
+.text-info {
+  color: $info;
+}
+
+//backgrouunds
+.bg-microverse {
+  background-color: $microverse;
+}
+
+.bg-microsecond {
+  background-color: $microsecond;
+}
+
+.bg-white {
+  background-color: $light;
+}
+
+.bg-highlight {
+  background-color: $warning;
+  border-radius: 5px;
+}
+
+.m-auto {
+  margin: auto;
+}
+.w-50 {
+  width: 50%;
+}
+
+.w-60{
+  width: 60%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w {
+  width: 100%;
+}
+
+.d-f {
+  display: flex;
+}
+
+.navlist {
+  @include navbars;
+  display: inline;
+}
+
+.a-base{
+  align-items: baseline;
+}
+
+.f-space{
+  justify-content: space-between;
+}
+
+.d-none{
+  display: none;
+}
+
+.clip{
+  clip-path: polygon(0 0, 100% 0, 100% 73%, 0 100%);
+}
+
+.f-c{
+  display: flex;
+  flex-direction: column;
+}
+
+.text-l{
+  text-align: left;
+}
+
+.pad-100{
+  padding: 100px 0 100px 50px;
+}
+
+.btn{
+  background-color: $warning;
+  font-size: 48px;
+  border-radius: 5px;
+  font-family: Domine;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  padding: 10px;
+  border: none;
+  margin-top: 80px;
+}

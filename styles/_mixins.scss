@@ -12,27 +12,15 @@ $font-weight: (
 
 @mixin headers ($font-size) {
   font-size: $font-size;
-  font-weight: weights(bolder);
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-@mixin paragraphs {
-  font-size: 12px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Domine;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
 }
 
 @mixin images ($url) {
-  width: 100%;
-  background: url($url) 0 0 no-repeat;
-  background-position: cover;
-}
-
-@mixin navbars {
-  list-style: none;
-  text-decoration: none;
-  padding: 20px;
-}
-
-@mixin lists {
-  list-style: none;
+  background: url($url) no-repeat;
+  background-size: 55%;
 }

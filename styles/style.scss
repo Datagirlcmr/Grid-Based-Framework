@@ -1,18 +1,8 @@
 
 @import './colors';
 @import './mixins';
-@import './grig';
- 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-@import "./colors";
-@import "./mixins";
-@import "./grid";
-
+@import './grid';
+@import './classes';
 
 //resets
 * {
@@ -22,27 +12,24 @@
 }
 
 // headers
-h1 {
-  @include headers(25px);
+.h1,h1 {
+  @include headers(48px);
 }
 
-h2 {
-  @include headers(23px);
+.h2,h2 {
+  @include headers(45px);
 }
-h3 {
+.h3,h3{
   @include headers(20px);
 }
-h4 {
+.h4,h4 {
   @include headers(18px);
 }
-h5 {
+.h5,h5 {
   @include headers(16px);
 }
-h6 {
+.h5,h5 {
   @include headers (14px);
-}
-
-  @include headers(14px);
 }
 
 p,
@@ -85,69 +72,12 @@ span {
   border-bottom: $border;
 }
 
-//text
-.text-danger {
-  color: $danger;
-}
-
-.text-white {
-  color: $light;
-}
-
-.text-black {
-  color: $dark;
-}
-.text-primary {
-  color: $primary;
-}
-
-.text-secondary {
-  color: $danger;
-}
-
-.text-secondary {
-  color: $secondary;
-}
-
-.text-info {
-  color: $info;
-}
-
-//backgrouunds
-.bg-microverse {
+.sec1{
+  @include images('../images/group-20.png');
+  background-position: 125% -5%;
   background-color: $microverse;
 }
-
-.bg-microsecond {
-  background-color: $microsecond;
-}
-
-.bg-white {
-  background-color: $light;
-}
-
-.bg-highlight {
-  background-color: $warning;
-}
-
-//navbars
-.navlist {
-  @include navbars;
-  display: inline;
-}
-
 //links
-a {
-  text-decoration: none;
-  color: $info;
-}
 
-a:hover{
-  color: lighten($dark, 40%);
-  text-decoration: underline;
-}
 
-li {
-  @include lists;
-}
 
