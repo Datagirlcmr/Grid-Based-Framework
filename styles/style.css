@@ -56,30 +56,139 @@
 h1 {
   font-size: 25px;
   font-weight: 900;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
   font-size: 23px;
   font-weight: 900;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h3 {
   font-size: 20px;
   font-weight: 900;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h4 {
   font-size: 18px;
   font-weight: 900;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h5 {
   font-size: 16px;
   font-weight: 900;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h6 {
   font-size: 14px;
   font-weight: 900;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p,
+span {
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.font-normal {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-bolder {
+  font-weight: 900;
+}
+
+.border {
+  border: 1px solid grey;
+}
+
+.border-right {
+  border-right: 1px solid grey;
+}
+
+.border-left {
+  border-left: 1px solid grey;
+}
+
+.border-top {
+  border-top: 1px solid grey;
+}
+
+.border-bottom {
+  border-bottom: 1px solid grey;
+}
+
+.text-danger {
+  color: red;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-primary {
+  color: blue;
+}
+
+.text-secondary {
+  color: red;
+}
+
+.text-secondary {
+  color: grey;
+}
+
+.text-info {
+  color: #17a2b8;
+}
+
+.bg-microverse {
+  background-color: #6f23ff;
+}
+
+.bg-microsecond {
+  background-color: #41d3bd;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-highlight {
+  background-color: #ffc107;
+}
+
+.navlist {
+  list-style: none;
+  text-decoration: none;
+  padding: 20px;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #17a2b8;
+}
+
+a:hover {
+  color: #666666;
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
 }
 /*# sourceMappingURL=style.css.map */
