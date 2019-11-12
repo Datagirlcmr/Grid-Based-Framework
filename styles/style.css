@@ -1,3 +1,11 @@
+.main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  min-width: inherit;
+}
+
 * {
   margin: 0;
   padding: 0;
