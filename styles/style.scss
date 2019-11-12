@@ -2,6 +2,11 @@
 @import './mixins';
 @import './grig';
  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 h1 {
   @include headers (25px);

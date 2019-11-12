@@ -4,29 +4,42 @@
   min-width: inherit;
 }
 
-@mixin col($val1, $val2) {
-  grid-column-start: $val1;
-  grid-column-end: $val2;
-}
-
-@mixin sm($st, $ed) {
-  @media screen and (min-width: 768px) {
-    grid-column-start: $st;
-    grid-column-end: $ed;
+@mixin sm($s1, $s2) {
+  @media screen and (max-width: 720px) {
+    grid-column-start: $s1;
+    grid-column-end: $s2;
   }
 }
 
-.p1 {
-  @include col(3, 13);
-  background-color: aqua;
+@mixin md ($m1, $m2) {
+  @media screen and (max-width: 1024px) {
+    grid-column-start: $m1;
+    grid-column-end: $m2;
+  }
+}
 
+@mixin lg($l1,$l2) {
+  @media screen and (min-width: 1024px) {
+    grid-column-start: $l1;
+    grid-column-end: $l2;
+  }
 }
 
 .p2 {
-  @include col(1, 13);
+  @include sm(1, 13);
   background-color: blueviolet;
 }
 
 .p1 {
-  @include sm(2, 8)
+  @include lg(1, 13);
+}
+
+.p1{
+  @include md(2, 5);
+}
+
+.p1 {
+  @include sm(3, 13);
+  background-color: aqua;
+
 }
