@@ -299,8 +299,25 @@ span {
 
 .sec1 {
   background: url("../images/group-20.png") no-repeat;
-  background-size: 55%;
   background-position: 125% -5%;
   background-color: #6f23ff;
+}
+
+@media screen and (max-width: 992px) {
+  .list {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .togler {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .togler {
+    display: block;
+  }
 }
 /*# sourceMappingURL=style.css.map */

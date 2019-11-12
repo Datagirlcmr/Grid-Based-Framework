@@ -2,6 +2,12 @@
   list-style: none;
 }
 
+.main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  min-width: inherit;
+}
+
 a {
   text-decoration: none;
   color: inherit;

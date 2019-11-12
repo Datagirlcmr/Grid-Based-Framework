@@ -1,18 +1,17 @@
-.main {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  min-width: inherit;
-}
+  $xsm:576px;
+  $sm:768px;
+  $md:992px;
+  $lg:1200px;
 
 @mixin sm($s1, $s2) {
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width:$sm) {
     grid-column-start: $s1;
     grid-column-end: $s2;
   }
 }
 
 @mixin md ($m1, $m2) {
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width:$md) {
     grid-column-start: $m1;
     grid-column-end: $m2;
   }
@@ -24,3 +23,11 @@
     grid-column-end: $l2;
   }
 }
+
+@mixin display($sreen,$val){
+  @media screen and (max-width:$sreen) {
+    display: $val;
+  }
+}
+
+
