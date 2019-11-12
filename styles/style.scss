@@ -1,6 +1,18 @@
+
+@import './colors';
+@import './mixins';
+@import './grig';
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @import "./colors";
 @import "./mixins";
 @import "./grid";
+
 
 //resets
 * {
@@ -27,6 +39,9 @@ h5 {
   @include headers(16px);
 }
 h6 {
+  @include headers (14px);
+}
+
   @include headers(14px);
 }
 
@@ -135,3 +150,4 @@ a:hover{
 li {
   @include lists;
 }
+

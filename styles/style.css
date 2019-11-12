@@ -6,6 +6,46 @@
   min-width: inherit;
 }
 
+.p2 {
+  background-color: blueviolet;
+}
+
+@media screen and (max-width: 720px) {
+  .p2 {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 13;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .p1 {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 13;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .p1 {
+    -ms-grid-column: 2;
+        grid-column-start: 2;
+    grid-column-end: 5;
+  }
+}
+
+.p1 {
+  background-color: aqua;
+}
+
+@media screen and (max-width: 720px) {
+  .p1 {
+    -ms-grid-column: 3;
+        grid-column-start: 3;
+    grid-column-end: 13;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
