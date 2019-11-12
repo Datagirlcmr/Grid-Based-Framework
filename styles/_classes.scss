@@ -91,6 +91,21 @@ color:$microverse
   color: $info;
 }
 
+.text-microverse{
+  color: $microverse;
+}
+.text-l{
+  text-align: left;
+}
+
+.text-c{
+  text-align: center;
+}
+
+.text-r{
+  text-align: right;
+}
+
 //backgrouunds
 .bg-microverse {
   background-color: $microverse;
@@ -162,9 +177,7 @@ color:$microverse
   flex-direction: column;
 }
 
-.text-l{
-  text-align: left;
-}
+
 
 .pad-100{
   padding: 100px 0 100px 50px;

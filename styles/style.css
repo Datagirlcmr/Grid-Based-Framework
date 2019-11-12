@@ -81,6 +81,22 @@ a:hover {
   color: #17a2b8;
 }
 
+.text-microverse {
+  color: #6f23ff;
+}
+
+.text-l {
+  text-align: left;
+}
+
+.text-c {
+  text-align: center;
+}
+
+.text-r {
+  text-align: right;
+}
+
 .bg-microverse {
   background-color: #6f23ff;
 }
@@ -163,10 +179,6 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.text-l {
-  text-align: left;
 }
 
 .pad-100 {
@@ -319,5 +331,10 @@ span {
   .togler {
     display: block;
   }
+}
+
+.stroke1 {
+  background: url("../images/stroke1.JPG") no-repeat;
+  background-position: 50% 50%;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,25 +1,25 @@
-$border : 1px solid grey;
+$border: 1px solid grey;
 $font-weight: (
-  'default': 400,
-  'normal' : 500,
-  'bold' : 700,
-  'bolder': 900
+  "default": 400,
+  "normal": 500,
+  "bold": 700,
+  "bolder": 900
 );
 
-@function weights($weight-name){
-  @return map-get($font-weight, $weight-name); 
+@function weights($weight-name) {
+  @return map-get($font-weight, $weight-name);
 }
 
-@mixin headers ($font-size) {
+@mixin headers($font-size) {
   font-size: $font-size;
   font-family: Domine;
-    font-weight: 700;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.27;
-    letter-spacing: normal;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
 }
 
-@mixin images ($url) {
+@mixin images($url) {
   background: url($url) no-repeat;
 }

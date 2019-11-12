@@ -86,5 +86,9 @@ span {
    @include display($md,block);
  }
 
-
+ .stroke1{
+  @include images('../images/stroke1.JPG');
+  background-position: 50% 50%;
+  // background-color: $microverse;
+}
 
