@@ -26,6 +26,10 @@ h2 {
   width: 30%;
 }
 
+.w-90{
+  width: 90%
+}
+
 .text-microthird{
   color:$microthird;
 }
@@ -147,6 +151,10 @@ a:hover {
   margin: auto;
 }
 
+.mt-3{
+  margin-top: 30px;
+}
+
 .d-f {
   display: flex;
 }
@@ -192,6 +200,10 @@ a:hover {
 
 .pad-r{
   margin-left: 30px;
+}
+
+.pad-200{
+  padding: 4%;
 }
 
 .b-table{
@@ -258,4 +270,8 @@ th, td {
 
 .d-inline{
   display: inline;
+}
+
+.border-b {
+  border-bottom: 1px solid grey;
 }
