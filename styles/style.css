@@ -242,6 +242,16 @@ table, td {
   border-collapse: collapse;
 }
 
+.paralelo {
+  -webkit-clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+          clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+}
+
+.clip3 {
+  -webkit-clip-path: polygon(0 30%, 100% 1%, 100% 100%, 0 100%);
+          clip-path: polygon(0 30%, 100% 1%, 100% 100%, 0 100%);
+}
+
 th, td {
   padding: 1px;
   text-align: left;
