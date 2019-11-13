@@ -22,12 +22,12 @@ h2 {
   min-width: inherit;
 }
 
-.col-4 {
-  grid-column: 1/5;
+.w-30{
+  width: 30%;
 }
 
-.col-6 {
-  grid-column: 1/7;
+.text-microthird{
+  color:$microthird;
 }
 
 a {
@@ -146,33 +146,6 @@ a:hover {
 .m-auto {
   margin: auto;
 }
-.w-30 {
-  width: 30%;
-}
-
-.w-40 {
-  width: 40%;
-}
-
-.w-50 {
-  width: 50%;
-}
-
-.w-60 {
-  width: 60%;
-}
-
-.w-80 {
-  width: 80%;
-}
-
-.w-90 {
-  width: 90%;
-}
-
-.w {
-  width: 100%;
-}
 
 .d-f {
   display: flex;
@@ -213,6 +186,15 @@ a:hover {
   padding: 4% 0 4% 2%;
 }
 
+.pad{
+  padding: 10px;
+}
+
+.b-table{
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
 .btn {
   background-color: $warning;
   font-size: 48px;
@@ -230,4 +212,13 @@ a:hover {
 
 .fw-w {
   flex-wrap: wrap;
+}
+
+table, td {
+  border: 3px solid rgba(128, 128, 128, 0.712);
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
 }
