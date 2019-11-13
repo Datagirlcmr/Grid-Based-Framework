@@ -190,6 +190,10 @@ a:hover {
   padding: 10px;
 }
 
+.pad-r{
+  margin-left: 30px;
+}
+
 .b-table{
   border: 1px solid gray;
   border-collapse: collapse;
@@ -218,7 +222,40 @@ table, td {
   border: 3px solid rgba(128, 128, 128, 0.712);
   border-collapse: collapse;
 }
+
 th, td {
-  padding: 5px;
+  padding: 1px;
   text-align: left;
+}
+
+.tab2{
+  table, td {
+    border:none;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 2px;
+    text-align: left;
+  }
+  
+}
+
+.hours{
+  padding: 8px 15px;
+  border: none;
+  border-radius: 25px;
+  margin-left: 30%;
+  display: inline;
+}
+
+.hours1{
+  @extend .hours ;
+  margin-left: 50%;
+  padding: 8px 20px;
+}
+
+
+.d-inline{
+  display: inline;
 }
