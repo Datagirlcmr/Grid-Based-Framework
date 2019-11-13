@@ -2,10 +2,31 @@
   list-style: none;
 }
 
+.h2,h2 {
+  font-family: maven pro;
+  font-weight: 700;
+  font-size:38px;
+  padding: 10px 0 10px 0;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color:$microverse;
+  text-align: center;
+}
+
 .main {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   min-width: inherit;
+}
+
+.col-4{
+  grid-column:1/5;
+}
+
+.col-6{
+  grid-column: 1/7;
 }
 
 a {
@@ -31,7 +52,7 @@ a:hover{
 .nav {
   @include navbars();
   align-items: baseline;
-  padding: 50px;
+  padding: 2%;
 }
 
 
@@ -127,6 +148,14 @@ color:$microverse
 .m-auto {
   margin: auto;
 }
+.w-30{
+  width: 30%;
+}
+
+.w-40{
+  width: 40%;
+}
+
 .w-50 {
   width: 50%;
 }
@@ -177,10 +206,13 @@ color:$microverse
   flex-direction: column;
 }
 
-
+.responsive {
+  width: 100%;
+  height: auto;
+}
 
 .pad-100{
-  padding: 100px 0 100px 50px;
+  padding: 4% 0 4% 2%;
 }
 
 .btn{

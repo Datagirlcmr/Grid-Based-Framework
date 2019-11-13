@@ -1,9 +1,34 @@
+.h2, h2 {
+  font-family: maven pro;
+  font-weight: 700;
+  font-size: 38px;
+  padding: 10px 0 10px 0;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6f23ff;
+  text-align: center;
+}
+
 .main {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
   min-width: inherit;
+}
+
+.col-4 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/5;
+}
+
+.col-6 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-column: 1/7;
 }
 
 a {
@@ -25,7 +50,7 @@ a:hover {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  padding: 50px;
+  padding: 2%;
 }
 
 .na-logo {
@@ -118,6 +143,14 @@ a:hover {
   margin: auto;
 }
 
+.w-30 {
+  width: 30%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
 .w-50 {
   width: 50%;
 }
@@ -181,8 +214,13 @@ a:hover {
           flex-direction: column;
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 .pad-100 {
-  padding: 100px 0 100px 50px;
+  padding: 4% 0 4% 2%;
 }
 
 .btn {
@@ -209,16 +247,6 @@ a:hover {
 
 .h1, h1 {
   font-size: 48px;
-  font-family: Domine;
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.27;
-  letter-spacing: normal;
-}
-
-.h2, h2 {
-  font-size: 45px;
   font-family: Domine;
   font-weight: 700;
   font-style: normal;
@@ -311,7 +339,7 @@ span {
 
 .sec1 {
   background: url("../images/group-20.png") no-repeat;
-  background-position: 125% -5%;
+  background-position: 135% -5%;
   background-color: #6f23ff;
 }
 
@@ -321,7 +349,7 @@ span {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 992px) {
   .togler {
     display: none;
   }
@@ -333,8 +361,21 @@ span {
   }
 }
 
-.stroke1 {
+@media screen and (max-width: 1200px) {
+  .text1 {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .apply {
+    width: 100%;
+  }
+}
+
+.h1str {
   background: url("../images/stroke1.JPG") no-repeat;
-  background-position: 50% 50%;
+  background-size: cover;
+  background-position: center;
 }
 /*# sourceMappingURL=style.css.map */

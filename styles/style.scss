@@ -16,9 +16,6 @@
   @include headers(48px);
 }
 
-.h2,h2 {
-  @include headers(45px);
-}
 .h3,h3{
   @include headers(20px);
 }
@@ -74,7 +71,7 @@ span {
 
 .sec1{
   @include images('../images/group-20.png');
-  background-position: 125% -5%;
+  background-position: 135% -5%;
   background-color: $microverse;
 }
  .list{
@@ -82,13 +79,20 @@ span {
  }
 
  .togler{
-   @include display($lg,none);
+   @include dis2($md,none);
    @include display($md,block);
  }
 
- .stroke1{
+ .text1{
+   @include width($lg,80%);
+ }
+
+ .apply{
+   @include width($sm,100%)
+ }
+.h1str{
   @include images('../images/stroke1.JPG');
-  background-position: 50% 50%;
-  // background-color: $microverse;
+  background-size: cover;
+  background-position: center;
 }
 

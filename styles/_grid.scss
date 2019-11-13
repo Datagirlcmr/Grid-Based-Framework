@@ -24,10 +24,20 @@
   }
 }
 
-@mixin display($sreen,$val){
+@mixin display ($sreen,$valu){
   @media screen and (max-width:$sreen) {
+    display: $valu;
+  }
+}
+
+@mixin dis2 ($screen,$val){
+  @media screen and (min-width:$screen) {
     display: $val;
   }
 }
 
-
+@mixin width($cren,$r-width) {
+  @media screen and (max-width:$cren) {
+    width: $r-width;
+  }
+}
