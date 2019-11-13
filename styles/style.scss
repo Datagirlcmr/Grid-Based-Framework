@@ -1,8 +1,7 @@
-
-@import './colors';
-@import './mixins';
-@import './grid';
-@import './classes';
+@import "./colors";
+@import "./mixins";
+@import "./grid";
+@import "./classes";
 
 //resets
 * {
@@ -12,21 +11,26 @@
 }
 
 // headers
-.h1,h1 {
+.h1,
+h1 {
   @include headers(48px);
 }
 
-.h3,h3{
+.h3,
+h3 {
   @include headers(20px);
 }
-.h4,h4 {
+.h4,
+h4 {
   @include headers(18px);
 }
-.h5,h5 {
+.h5,
+h5 {
   @include headers(16px);
 }
-.h5,h5 {
-  @include headers (14px);
+.h5,
+h5 {
+  @include headers(14px);
 }
 
 p,
@@ -36,15 +40,15 @@ span {
 
 //font-weights
 
-.font-normal{
+.font-normal {
   font-weight: weights(normal);
 }
 
-.font-bold{
+.font-bold {
   font-weight: weights(bold);
 }
 
-.font-bolder{
+.font-bolder {
   font-weight: weights(bolder);
 }
 
@@ -69,30 +73,72 @@ span {
   border-bottom: $border;
 }
 
-.sec1{
-  @include images('../images/group-20.png');
+.sec1 {
+  @include images("../images/group-20.png");
   background-position: 135% -5%;
   background-color: $microverse;
 }
- .list{
-   @include display($md,none)
- }
+.list {
+  @include display($md, none);
+}
 
- .togler{
-   @include dis2($md,none);
-   @include display($md,block);
- }
+.togler {
+  @include dis2($md, none);
+  @include display($md, block);
+}
 
- .text1{
-   @include width($lg,80%);
- }
+.text1 {
+  @include width($lg, 80%);
+}
 
- .apply{
-   @include width($sm,100%)
- }
-.h1str{
-  @include images('../images/stroke1.JPG');
+.apply {
+  @include width($sm, 100%);
+}
+.h1str {
+  @include images("../images/stroke1.JPG");
   background-size: cover;
   background-position: center;
 }
 
+@for $i from 1 through 12 {
+  $width: percentage($i / 12);
+  .col-#{$i} {
+    width: $width;
+    }
+  }
+
+@media screen and (min-width: $lg) { 
+  @for $i from 1 through 12 {
+    $width: percentage($i / 12);
+    .col-#{$i}-xl {
+      width: $width;
+      }
+    }
+  }
+
+@media screen and (max-width: $lg) { 
+  @for $i from 1 through 12 {
+    $width: percentage($i / 12);
+    .col-#{$i}-lg {
+      width: $width;
+      }
+    }
+  }
+
+@media screen and (max-width: $md) { 
+@for $j from 1 through 12 {
+  $width: percentage($j / 12);
+  .col-#{$j}-md {
+    width: $width;
+    }
+  }
+}
+
+@media screen and (max-width: $sm) { 
+  @for $j from 1 through 12 {
+    $width: percentage($j / 12);
+    .col-#{$j}-sm {
+      width: $width;
+      }
+    }
+  }

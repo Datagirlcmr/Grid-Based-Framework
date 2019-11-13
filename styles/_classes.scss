@@ -2,16 +2,17 @@
   list-style: none;
 }
 
-.h2,h2 {
+.h2,
+h2 {
   font-family: maven pro;
   font-weight: 700;
-  font-size:38px;
+  font-size: 38px;
   padding: 10px 0 10px 0;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  color:$microverse;
+  color: $microverse;
   text-align: center;
 }
 
@@ -21,11 +22,11 @@
   min-width: inherit;
 }
 
-.col-4{
-  grid-column:1/5;
+.col-4 {
+  grid-column: 1/5;
 }
 
-.col-6{
+.col-6 {
   grid-column: 1/7;
 }
 
@@ -34,7 +35,7 @@ a {
   color: inherit;
 }
 
-a:hover{
+a:hover {
   color: lighten($dark, 40%);
 }
 
@@ -42,11 +43,9 @@ a:hover{
   @include lists();
 }
 
-
 @mixin navbars {
   text-decoration: none;
   padding: 1vw;
-  
 }
 
 .nav {
@@ -54,7 +53,6 @@ a:hover{
   align-items: baseline;
   padding: 2%;
 }
-
 
 @mixin paragraphs {
   font-size: 20px;
@@ -65,23 +63,23 @@ a:hover{
   font-family: Montserrat;
 }
 
-.na-logo{
+.na-logo {
   font-family: maven pro;
-    font-size: 38px;
-    font-weight: 700;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #fff;
-    text-align: left;
+  font-size: 38px;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+  text-align: left;
 }
 
 .p {
   @include paragraphs();
 }
-.text-mic{
-color:$microverse
+.text-mic {
+  color: $microverse;
 }
 
 .text-danger {
@@ -112,18 +110,18 @@ color:$microverse
   color: $info;
 }
 
-.text-microverse{
+.text-microverse {
   color: $microverse;
 }
-.text-l{
+.text-l {
   text-align: left;
 }
 
-.text-c{
+.text-c {
   text-align: center;
 }
 
-.text-r{
+.text-r {
   text-align: right;
 }
 
@@ -148,11 +146,11 @@ color:$microverse
 .m-auto {
   margin: auto;
 }
-.w-30{
+.w-30 {
   width: 30%;
 }
 
-.w-40{
+.w-40 {
   width: 40%;
 }
 
@@ -160,7 +158,7 @@ color:$microverse
   width: 50%;
 }
 
-.w-60{
+.w-60 {
   width: 60%;
 }
 
@@ -185,23 +183,23 @@ color:$microverse
   display: inline;
 }
 
-.a-base{
+.a-base {
   align-items: baseline;
 }
 
-.f-space{
+.f-space {
   justify-content: space-between;
 }
 
-.d-none{
+.d-none {
   display: none;
 }
 
-.clip{
+.clip {
   clip-path: polygon(0 0, 100% 0, 100% 73%, 0 100%);
 }
 
-.f-c{
+.f-c {
   display: flex;
   flex-direction: column;
 }
@@ -211,11 +209,11 @@ color:$microverse
   height: auto;
 }
 
-.pad-100{
+.pad-100 {
   padding: 4% 0 4% 2%;
 }
 
-.btn{
+.btn {
   background-color: $warning;
   font-size: 48px;
   border-radius: 5px;
@@ -228,4 +226,8 @@ color:$microverse
   padding: 10px;
   border: none;
   margin-top: 80px;
+}
+
+.fw-w {
+  flex-wrap: wrap;
 }
