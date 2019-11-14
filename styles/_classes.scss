@@ -240,7 +240,7 @@ table, td {
 }
 
 .clip3{
-  clip-path: polygon(0 30%, 100% 1%, 100% 100%, 0 100%);
+  clip-path: polygon(0 35%, 100% 0, 100% 100%, 0 100%);
 }
 
 th, td {
@@ -259,6 +259,14 @@ th, td {
     text-align: left;
   }
   
+}
+
+.d-block{
+  display: block;
+}
+
+.m-none{
+  margin: none;
 }
 
 .hours{

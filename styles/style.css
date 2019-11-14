@@ -248,8 +248,8 @@ table, td {
 }
 
 .clip3 {
-  -webkit-clip-path: polygon(0 30%, 100% 1%, 100% 100%, 0 100%);
-          clip-path: polygon(0 30%, 100% 1%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 35%, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 35%, 100% 0, 100% 100%, 0 100%);
 }
 
 th, td {
@@ -265,6 +265,14 @@ th, td {
 .tab2 th, .tab2 td {
   padding: 2px;
   text-align: left;
+}
+
+.d-block {
+  display: block;
+}
+
+.m-none {
+  margin: none;
 }
 
 .hours, .hours1 {
@@ -293,6 +301,10 @@ th, td {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  background-color: brown;
 }
 
 .h1,
