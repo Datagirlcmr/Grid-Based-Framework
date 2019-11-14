@@ -140,12 +140,24 @@ a:hover {
   border-radius: 5px;
 }
 
+.bg-footer {
+  background-color: #3e396b;
+}
+
 .m-auto {
   margin: auto;
 }
 
 .mt-3 {
   margin-top: 30px;
+}
+
+.m-top {
+  margin-top: 270px;
+}
+
+.ml-50 {
+  margin-left: 50px;
 }
 
 .d-f {
@@ -158,6 +170,12 @@ a:hover {
   text-decoration: none;
   padding: 1vw;
   display: inline;
+}
+
+.navblock {
+  text-decoration: none;
+  padding: 1vw;
+  list-style: none;
 }
 
 .a-base {

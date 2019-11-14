@@ -147,12 +147,24 @@ a:hover {
   border-radius: 5px;
 }
 
+.bg-footer{
+  background-color: $microfooter;
+}
+
 .m-auto {
   margin: auto;
 }
 
 .mt-3{
   margin-top: 30px;
+}
+
+.m-top{
+  margin-top: 270px;
+}
+
+.ml-50{
+  margin-left: 50px;
 }
 
 .d-f {
@@ -162,6 +174,11 @@ a:hover {
 .navlist {
   @include navbars;
   display: inline;
+}
+
+.navblock{
+  @include navbars;
+  list-style: none;
 }
 
 .a-base {
