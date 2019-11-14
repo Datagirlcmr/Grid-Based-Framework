@@ -10,9 +10,6 @@
   box-sizing: border-box;
 }
 
-body{
-  background-color: brown;
-}
 // headers
 .h1,
 h1 {
@@ -55,11 +52,6 @@ span {
   font-weight: weights(bolder);
 }
 
-.sec1 {
-  @include images("../images/group-20.png");
-  background-position: 135% -5%;
-  background-color: $microverse;
-}
 .list {
   @include display($md, none);
 }
@@ -73,13 +65,51 @@ span {
   @include width($lg, 80%);
 }
 
+.g-20{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
 .apply {
   @include width($sm, 100%);
 }
-.h1str {
+.br1 {
   @include images("../images/stroke1.JPG");
-  background-size: cover;
-  background-position: center;
+}
+.br2{
+  @include images("../images/brushgreen.png");
+}
+.br3{
+  @include images("../images/brushgray.png")
+}
+
+.br4{
+  @include images("../images/brora.png")
+}
+.collabo{
+  @include flex($sm,column);
+  div{
+    @include width($sm,100%);
+  }
+}
+
+.images{
+    @include flex($sm,column);
+}
+
+.profil{
+  @include flex($md,column);
+  div{
+    @include width($md,100%);
+  }
+}
+
+.child1{
+  @include flex($sm,column);
+  div{
+    @include width($sm,100%);
+  }
 }
 
 @for $i from 1 through 12 {

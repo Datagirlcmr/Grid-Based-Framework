@@ -15,8 +15,16 @@ $lg: 1200px; // max-width
   }
 }
 
-@mixin width($cren, $r-width) {
+@mixin flex($cren, $direction) {
   @media screen and (max-width: $cren) {
-    width: $r-width;
+    flex-direction: $direction;
   }
 }
+
+@mixin width($c,$width) {
+  @media screen and (max-width: $c) {
+    width: $width;
+    margin: auto;
+  }
+}
+

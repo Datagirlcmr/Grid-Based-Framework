@@ -16,6 +16,10 @@ h2 {
   text-align: center;
 }
 
+.r-s{
+  font-size: 3vw;
+}
+
 .main {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -24,6 +28,22 @@ h2 {
 
 .w-30{
   width: 30%;
+}
+
+.i{
+  font-style: italic;
+}
+
+.w-45{
+  width: 45%;
+}
+
+.w-40{
+  width: 40%;
+}
+
+.w-50{
+  width: 50%;
 }
 
 .w-90{
@@ -138,6 +158,10 @@ a:hover {
   background-color: $microsecond;
 }
 
+.bg-blue{
+  background-color: $bd;
+}
+
 .bg-white {
   background-color: $light;
 }
@@ -194,7 +218,7 @@ a:hover {
 }
 
 .clip {
-  clip-path: polygon(0 0, 100% 0, 100% 73%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
 .f-c {
@@ -203,6 +227,11 @@ a:hover {
 }
 
 .responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.responsivo {
   width: 100%;
   height: auto;
 }
@@ -286,21 +315,42 @@ th, td {
   margin: none;
 }
 
+.back{
+  z-index: -10;
+}
+
+.hidden{
+  overflow: hidden;
+}
+
+.radius{
+  border-radius: 30%;
+}
+.p-b{
+  padding: 0 0 100px 0;
+}
+
+.f-center{
+  justify-content: center;
+}
+
 .hours{
   padding: 8px 15px;
   border: none;
   border-radius: 25px;
-  margin-left: 30%;
+  margin-left: 10%;
   display: inline;
 }
 
 .hours1{
   @extend .hours ;
-  margin-left: 50%;
-  padding: 8px 20px;
+  margin-left: 40%;
+  padding: 5px 20px;
 }
 
-
+.p-t{
+padding-bottom:10px;
+}
 .d-inline{
   display: inline;
 }

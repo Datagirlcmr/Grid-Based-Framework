@@ -12,6 +12,10 @@ h2 {
   text-align: center;
 }
 
+.r-s {
+  font-size: 3vw;
+}
+
 .main {
   display: -ms-grid;
   display: grid;
@@ -22,6 +26,22 @@ h2 {
 
 .w-30 {
   width: 30%;
+}
+
+.i {
+  font-style: italic;
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-50 {
+  width: 50%;
 }
 
 .w-90 {
@@ -131,6 +151,10 @@ a:hover {
   background-color: #41d3bd;
 }
 
+.bg-blue {
+  background-color: #f3f3f3;
+}
+
 .bg-white {
   background-color: white;
 }
@@ -195,8 +219,8 @@ a:hover {
 }
 
 .clip {
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 73%, 0 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 73%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
 .f-c {
@@ -210,6 +234,11 @@ a:hover {
 }
 
 .responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.responsivo {
   width: 100%;
   height: auto;
 }
@@ -293,17 +322,43 @@ th, td {
   margin: none;
 }
 
+.back {
+  z-index: -10;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.radius {
+  border-radius: 30%;
+}
+
+.p-b {
+  padding: 0 0 100px 0;
+}
+
+.f-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .hours, .hours1 {
   padding: 8px 15px;
   border: none;
   border-radius: 25px;
-  margin-left: 30%;
+  margin-left: 10%;
   display: inline;
 }
 
 .hours1 {
-  margin-left: 50%;
-  padding: 8px 20px;
+  margin-left: 40%;
+  padding: 5px 20px;
+}
+
+.p-t {
+  padding-bottom: 10px;
 }
 
 .d-inline {
@@ -319,10 +374,6 @@ th, td {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-body {
-  background-color: brown;
 }
 
 .h1,
@@ -402,12 +453,6 @@ span {
   font-weight: 900;
 }
 
-.sec1 {
-  background: url("../images/group-20.png") no-repeat;
-  background-position: 135% -5%;
-  background-color: #6f23ff;
-}
-
 @media screen and (max-width: 992px) {
   .list {
     display: none;
@@ -429,19 +474,102 @@ span {
 @media screen and (max-width: 1200px) {
   .text1 {
     width: 80%;
+    margin: auto;
   }
+}
+
+.g-20 {
+  position: absolute;
+  top: 0%;
+  right: 0%;
 }
 
 @media screen and (max-width: 768px) {
   .apply {
     width: 100%;
+    margin: auto;
   }
 }
 
-.h1str {
+.br1 {
   background: url("../images/stroke1.JPG") no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.br2 {
+  background: url("../images/brushgreen.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.br3 {
+  background: url("../images/brushgray.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.br4 {
+  background: url("../images/brora.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .collabo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .collabo div {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .images {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .profil {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .profil div {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .child1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .child1 div {
+    width: 100%;
+    margin: auto;
+  }
 }
 
 .col-1 {
