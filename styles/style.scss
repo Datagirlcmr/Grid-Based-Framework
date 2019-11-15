@@ -87,15 +87,15 @@ span {
 }
 
 .br3 {
-  @include images("../images/brushgray.png")
+  @include images("../images/brushgray.png");
 }
 
 .br4 {
-  @include images("../images/brora.png")
+  @include images("../images/brora.png");
 }
 
 .br5 {
-  @include images("../images/brush blue.png")
+  @include images("../images/brush blue.png");
 }
 
 .collabo {
