@@ -1,5 +1,5 @@
 $xsm: 576px; //max-width
-$sm: 768px;  //max-width
+$sm: 768px; //max-width
 $md: 992px; // max-width
 $lg: 1200px; // max-width
 
@@ -21,10 +21,15 @@ $lg: 1200px; // max-width
   }
 }
 
-@mixin width($c,$width) {
+@mixin width($c, $width) {
   @media screen and (max-width: $c) {
     width: $width;
     margin: auto;
   }
 }
 
+@mixin order($num, $e) {
+  @media screen and (max-width:$e) {
+    order: $num;
+  }
+}

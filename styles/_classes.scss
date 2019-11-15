@@ -16,11 +16,11 @@ h2 {
   text-align: center;
 }
 
-.p-a{
+.p-a {
   position: absolute;
 }
 
-.r-s{
+.r-s {
   font-size: 3vw;
 }
 
@@ -30,32 +30,32 @@ h2 {
   min-width: inherit;
 }
 
-.w-30{
+.w-30 {
   width: 30%;
 }
 
-.i{
+.i {
   font-style: italic;
 }
 
-.w-45{
+.w-45 {
   width: 45%;
 }
 
-.w-40{
+.w-40 {
   width: 40%;
 }
 
-.w-50{
+.w-50 {
   width: 50%;
 }
 
-.w-90{
+.w-90 {
   width: 90%
 }
 
-.text-microthird{
-  color:$microthird;
+.text-microthird {
+  color: $microthird;
 }
 
 a {
@@ -106,6 +106,7 @@ a:hover {
 .p {
   @include paragraphs();
 }
+
 .text-mic {
   color: $microverse;
 }
@@ -141,6 +142,7 @@ a:hover {
 .text-microverse {
   color: $microverse;
 }
+
 .text-l {
   text-align: left;
 }
@@ -162,7 +164,7 @@ a:hover {
   background-color: $microsecond;
 }
 
-.bg-blue{
+.bg-blue {
   background-color: $bd;
 }
 
@@ -175,19 +177,19 @@ a:hover {
   border-radius: 5px;
 }
 
-.bg-footer{
+.bg-footer {
   background-color: $microfooter;
 }
 
-.bg-btn1{
+.bg-btn1 {
   background-color: $button1;
 }
 
-.bg-btn2{
+.bg-btn2 {
   background-color: $button23;
 }
 
-.bg-btn3{
+.bg-btn3 {
   background-color: $button4;
 }
 
@@ -195,11 +197,11 @@ a:hover {
   margin: auto;
 }
 
-.m-r{
+.m-r {
   margin-left: 100%;
 }
 
-.mt-3{
+.mt-3 {
   margin-top: 30px;
 }
 
@@ -207,11 +209,11 @@ a:hover {
   margin: 100px auto;
 }
 
-.m-top{
+.m-top {
   margin-top: 270px;
 }
 
-.ml-50{
+.ml-50 {
   margin-left: 50px;
 }
 
@@ -224,7 +226,7 @@ a:hover {
   display: inline;
 }
 
-.navblock{
+.navblock {
   @include navbars;
   list-style: none;
 }
@@ -260,56 +262,58 @@ a:hover {
   height: auto;
 }
 
-.responsiva{
+.responsiva {
   max-width: 100%;
   max-height: 100%;
 }
 
-.f-left{
+.f-left {
   align-items: flex-end;
-} 
+}
 
-.f-right{
+.f-right {
   align-items: flex-start;
 }
-.a-l{
+
+.a-l {
   right: 3px;
 }
 
-.shadow{
+.shadow {
   border: 1px solid white;
   padding: 10px;
   box-shadow: 0px 2px 10px 5px #888888;
   margin: 8px 0 8px 0;
 }
 
-.hoursa{
+.hoursa {
   padding: 10px;
   color: #fff;
   font-weight: bolder;
   border: none;
   padding: 8px 20px 8px 20px;
-  border-radius:25px;
+  border-radius: 25px;
   margin: 5px auto 5px auto;
 }
 
-.mtb{
+.mtb {
   margin: 8px 0 8px 0;
 }
 
-.tb{
+.tb {
   margin: 4px;
   border-radius: 5px;
 }
 
-.f-end{
+.f-end {
   align-content: flex-end;
 }
 
-.f-start{
+.f-start {
   align-content: flex-start;
 }
-.marg{
+
+.marg {
   margin: 10px;
 }
 
@@ -317,27 +321,27 @@ a:hover {
   padding: 4% 0 4% 2%;
 }
 
-.pad{
+.pad {
   padding: 10px;
 }
 
-.pad-r{
+.pad-r {
   margin-left: 30px;
 }
 
-.pad-200{
+.pad-200 {
   padding: 4%;
 }
 
-.pad-50{
+.pad-50 {
   padding: 8% 8% 0 8%;
 }
 
-.pad-400{
+.pad-400 {
   padding: 10% 5% 10% 5%;
 }
 
-.b-table{
+.b-table {
   border: 1px solid gray;
   border-collapse: collapse;
 }
@@ -361,73 +365,79 @@ a:hover {
   flex-wrap: wrap;
 }
 
-table, td {
+table,
+td {
   border: 3px solid rgba(128, 128, 128, 0.712);
   border-collapse: collapse;
 }
 
-.a-center{
+.a-center {
   margin-top: 30%;
 }
 
-.paralelo{
+.paralelo {
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
 }
 
-.clip3{
+.clip3 {
   clip-path: polygon(0 35%, 100% 0, 100% 100%, 0 100%);
 }
 
-th, td {
+th,
+td {
   padding: 1px;
   text-align: left;
 }
 
-.tab2{
-  table, td {
-    border:none;
+.tab2 {
+
+  table,
+  td {
+    border: none;
     border-collapse: collapse;
   }
-  
-  th, td {
+
+  th,
+  td {
     padding: 2px;
     text-align: left;
   }
-  
+
 }
 
-.d-block{
+.d-block {
   display: block;
 }
 
-.m-none{
+.m-none {
   margin: none;
 }
 
-.back{
+.back {
   z-index: -10;
 }
 
-.front{
+.front {
   z-index: 100;
 }
 
-.hidden{
+.hidden {
   overflow: hidden;
 }
 
-.radius{
+.radius {
   border-radius: 30%;
 }
-.p-b{
+
+.p-b {
   padding: 0 0 100px 0;
 }
 
-.f-center{
+.f-center {
   justify-content: center;
 }
 
-.hours{
+.hours {
   padding: 8px 15px;
   border: none;
   border-radius: 25px;
@@ -435,16 +445,17 @@ th, td {
   display: inline;
 }
 
-.hours1{
-  @extend .hours ;
+.hours1 {
+  @extend .hours;
   margin-left: 40%;
   padding: 5px 20px;
 }
 
-.p-t{
-padding-bottom:10px;
+.p-t {
+  padding-bottom: 10px;
 }
-.d-inline{
+
+.d-inline {
   display: inline;
 }
 
@@ -452,25 +463,21 @@ padding-bottom:10px;
   border-bottom: 1px solid grey;
 }
 
-.botbut{
+.botbut {
   background-color: $warning;
   border: none;
   margin: 10px auto;
   padding: 10px;
 }
 
-.svg1{
+.svg1 {
   position: absolute;
   top: 14%;
-  left: 40%;
+  left: 20%;
 }
 
-.svg2{
+.svg2 {
   position: absolute;
-  bottom: -40%;
+  bottom: -20%;
   left: 10%;
-}
-
-.svgb1 {
-  
 }

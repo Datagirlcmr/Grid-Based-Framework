@@ -1,10 +1,8 @@
 $border: 1px solid grey;
-$font-weight: (
-  "default": 400,
+$font-weight: ("default": 400,
   "normal": 500,
   "bold": 700,
-  "bolder": 900
-);
+  "bolder": 900);
 
 @function weights($weight-name) {
   @return map-get($font-weight, $weight-name);
