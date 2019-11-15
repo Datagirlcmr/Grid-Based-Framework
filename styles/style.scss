@@ -87,6 +87,10 @@ span {
 .br4{
   @include images("../images/brora.png")
 }
+
+.br5{
+  @include images("../images/brush blue.png")
+}
 .collabo{
   @include flex($sm,column);
   div{
