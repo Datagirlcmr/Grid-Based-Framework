@@ -243,6 +243,33 @@ a:hover {
   height: auto;
 }
 
+.responsiva {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.f-left {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.f-right {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.f-end {
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+.f-start {
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
 .marg {
   margin: 10px;
 }
@@ -261,6 +288,10 @@ a:hover {
 
 .pad-200 {
   padding: 4%;
+}
+
+.pad-50 {
+  padding: 8% 8% 0 8%;
 }
 
 .pad-400 {

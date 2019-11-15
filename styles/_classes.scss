@@ -236,6 +236,26 @@ a:hover {
   height: auto;
 }
 
+.responsiva{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.f-left{
+  align-items: flex-end;
+} 
+
+.f-right{
+  align-items: flex-start;
+}
+
+.f-end{
+  align-content: flex-end;
+}
+
+.f-start{
+  align-content: flex-start;
+}
 .marg{
   margin: 10px;
 }
@@ -254,6 +274,10 @@ a:hover {
 
 .pad-200{
   padding: 4%;
+}
+
+.pad-50{
+  padding: 8% 8% 0 8%;
 }
 
 .pad-400{
