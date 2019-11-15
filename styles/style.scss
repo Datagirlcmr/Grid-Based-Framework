@@ -117,6 +117,10 @@ span {
   @include display($sm,none);
 }
 
+.dn-md{
+  @include display($md, none);
+}
+
 .dn{
   @include dis2($sm,none);
 }

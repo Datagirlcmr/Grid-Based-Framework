@@ -172,6 +172,18 @@ a:hover {
   background-color: #3e396b;
 }
 
+.bg-btn1 {
+  background-color: #a06eff;
+}
+
+.bg-btn2 {
+  background-color: rgba(65, 211, 189, 0.25);
+}
+
+.bg-btn3 {
+  background-color: tan;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -182,6 +194,10 @@ a:hover {
 
 .mt-3 {
   margin-top: 30px;
+}
+
+.mt-5 {
+  margin: 100px auto;
 }
 
 .m-top {
@@ -286,7 +302,7 @@ a:hover {
   font-weight: bolder;
   border: none;
   padding: 8px 20px 8px 20px;
-  border-radius: 20%;
+  border-radius: 25px;
   margin: 5px auto 5px auto;
 }
 
@@ -453,6 +469,25 @@ th, td {
 
 .border-b {
   border-bottom: 1px solid grey;
+}
+
+.botbut {
+  background-color: #ffc107;
+  border: none;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.svg1 {
+  position: absolute;
+  top: 14%;
+  left: 40%;
+}
+
+.svg2 {
+  position: absolute;
+  bottom: -40%;
+  left: 10%;
 }
 
 * {
@@ -659,6 +694,12 @@ span {
 
 @media screen and (max-width: 768px) {
   .dn-sm {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .dn-md {
     display: none;
   }
 }
