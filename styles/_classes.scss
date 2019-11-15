@@ -16,6 +16,10 @@ h2 {
   text-align: center;
 }
 
+.p-a{
+  position: absolute;
+}
+
 .r-s{
   font-size: 3vw;
 }
@@ -252,6 +256,33 @@ a:hover {
 .f-right{
   align-items: flex-start;
 }
+.a-l{
+  right: 3px;
+}
+
+.shadow{
+  border: 1px solid white;
+  padding: 10px;
+  box-shadow: 0px 2px 10px 5px #888888;
+  margin: 8px 0 8px 0;
+}
+
+.hoursa{
+  padding: 10px;
+  border: none;
+  padding: 8px 20px 8px 20px;
+  border-radius:20%;
+  margin: 5px auto 5px auto;
+}
+
+.mtb{
+  margin: 8px 0 8px 0;
+}
+
+.tb{
+  margin: 2px;
+  border-radius: 5px;
+}
 
 .f-end{
   align-content: flex-end;
@@ -357,6 +388,10 @@ th, td {
 
 .back{
   z-index: -10;
+}
+
+.front{
+  z-index: 100;
 }
 
 .hidden{

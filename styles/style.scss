@@ -102,11 +102,23 @@ span {
     @include flex($sm,column);
 }
 
+.ariel{
+  @include flex($sm,column);
+}
+
 .profil{
   @include flex($md,column);
   div{
     @include width($md,100%);
   }
+}
+
+.dn-sm{
+  @include display($sm,none);
+}
+
+.dn{
+  @include dis2($sm,none);
 }
 
 .child1{
