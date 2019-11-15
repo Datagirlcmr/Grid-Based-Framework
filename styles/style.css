@@ -243,6 +243,10 @@ a:hover {
   height: auto;
 }
 
+.marg {
+  margin: 10px;
+}
+
 .pad-100 {
   padding: 4% 0 4% 2%;
 }
@@ -257,6 +261,10 @@ a:hover {
 
 .pad-200 {
   padding: 4%;
+}
+
+.pad-400 {
+  padding: 10% 5% 10% 5%;
 }
 
 .b-table {
@@ -289,9 +297,13 @@ table, td {
   border-collapse: collapse;
 }
 
+.a-center {
+  margin-top: 30%;
+}
+
 .paralelo {
-  -webkit-clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
-          clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+  -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
 }
 
 .clip3 {
