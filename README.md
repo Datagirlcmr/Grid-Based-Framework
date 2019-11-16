@@ -36,6 +36,3 @@ Project Link :envelope:: [Project repo](https://github.com/Datagirlcmr/Grid-Base
 [contributors-url]: https://github.com/Datagirlcmr/New-York-Times/graphs/contributors
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
 [issues-url]: https://github.com/Datagirlcmr/New-York-Times/issues
-
-
-
