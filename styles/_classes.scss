@@ -4,7 +4,7 @@
 
 .h2,
 h2 {
-  font-family: maven pro;
+  font-family: maven pro, 'Times New Roman', Times, serif;
   font-weight: 700;
   font-size: 38px;
   padding: 10px 0 10px 0;
@@ -73,7 +73,6 @@ a:hover {
 .nav {
   @include navbars();
   align-items: baseline;
-  padding: 2%;
 }
 
 @mixin paragraphs {
@@ -82,11 +81,11 @@ a:hover {
   color: #fff;
   margin-right: 30px;
   margin-top: 15px;
-  font-family: Montserrat;
+  font-family: Montserrat, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .na-logo {
-  font-family: maven pro;
+  font-family: maven pro, 'Times New Roman', Times, serif ;
   font-size: 38px;
   font-weight: 700;
   font-style: normal;
@@ -119,10 +118,6 @@ a:hover {
 
 .text-primary {
   color: $primary;
-}
-
-.text-secondary {
-  color: $danger;
 }
 
 .text-secondary {
@@ -275,12 +270,11 @@ a:hover {
 .shadow {
   border: 1px solid white;
   padding: 10px;
-  box-shadow: 0px 2px 10px 5px #888;
+  box-shadow: 0 2px 10px 5px #888;
   margin: 8px 0 8px 0;
 }
 
 .hoursa {
-  padding: 10px;
   color: #fff;
   font-weight: bolder;
   border: none;
@@ -343,7 +337,7 @@ a:hover {
   background-color: $warning;
   font-size: 48px;
   border-radius: 5px;
-  font-family: Domine;
+  font-family: Domine, Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-stretch: normal;

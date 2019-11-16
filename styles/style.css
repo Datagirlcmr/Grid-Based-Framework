@@ -67,7 +67,6 @@ a:hover {
   -webkit-box-align: baseline;
   -ms-flex-align: baseline;
   align-items: baseline;
-  padding: 2%;
 }
 
 .na-logo {
@@ -220,8 +219,8 @@ a:hover {
 
 .a-base {
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
 }
 
 .f-space {
@@ -289,7 +288,6 @@ a:hover {
 }
 
 .hoursa {
-  padding: 10px;
   color: #fff;
   font-weight: bolder;
   border: none;
@@ -442,7 +440,8 @@ td {
   justify-content: center;
 }
 
-.hours, .hours1 {
+.hours,
+.hours1 {
   padding: 8px 15px;
   border: none;
   border-radius: 25px;
@@ -537,8 +536,7 @@ h5 {
   letter-spacing: normal;
 }
 
-.h5,
-h5 {
+.h5 {
   font-size: 14px;
   font-family: Domine;
   font-weight: 700;
@@ -901,7 +899,6 @@ span {
   .col-10-lg {
     width: 83.33333%;
   }
-  
   .col-11-lg {
     width: 91.66667%;
   }
@@ -1005,9 +1002,9 @@ span {
   .col-11-sm {
     width: 91.66667%;
   }
-  
   .col-12-sm {
     width: 100%;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
