@@ -24,12 +24,6 @@ h2 {
   font-size: 3vw;
 }
 
-.main {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  min-width: inherit;
-}
-
 .w-30 {
   width: 30%;
 }
@@ -277,12 +271,11 @@ a:hover {
 
 .a-l {
   right: 3px;
-}
 
 .shadow {
   border: 1px solid white;
   padding: 10px;
-  box-shadow: 0px 2px 10px 5px #888888;
+  box-shadow: 0px 2px 10px 5px #888;
   margin: 8px 0 8px 0;
 }
 
