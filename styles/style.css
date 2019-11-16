@@ -15,6 +15,14 @@ h2 {
   position: absolute;
 }
 
+.row{
+  width: 100%;
+}
+
+.row-auto{
+  width: 90%;
+}
+
 .r-s {
   font-size: 3vw;
 }
