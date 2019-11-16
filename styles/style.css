@@ -111,6 +111,10 @@ a:hover {
 }
 
 .text-secondary {
+  color: red;
+}
+
+.text-secondary {
   color: grey;
 }
 
@@ -999,9 +1003,8 @@ span {
   .col-11-sm {
     width: 91.66667%;
   }
-
+  
   .col-12-sm {
     width: 100%;
   }
 }
-/*# sourceMappingURL=style.css.map */
