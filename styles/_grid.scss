@@ -1,0 +1,35 @@
+$xsm: 576px; //max-width
+$sm: 768px; //max-width
+$md: 992px; // max-width
+$lg: 1200px; // max-width
+
+@mixin display($sreen, $valu) {
+  @media screen and (max-width: $sreen) {
+    display: $valu;
+  }
+}
+
+@mixin dis2($screen, $val) {
+  @media screen and (min-width: $screen) {
+    display: $val;
+  }
+}
+
+@mixin flex($cren, $direction) {
+  @media screen and (max-width: $cren) {
+    flex-direction: $direction;
+  }
+}
+
+@mixin width($c, $width) {
+  @media screen and (max-width: $c) {
+    width: $width;
+    margin: auto;
+  }
+}
+
+@mixin order($num, $e) {
+  @media screen and (max-width: $e) {
+    order: $num;
+  }
+}

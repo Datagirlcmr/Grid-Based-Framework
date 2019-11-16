@@ -1,0 +1,211 @@
+@import "./colors";
+@import "./mixins";
+@import "./grid";
+@import "./classes";
+
+//resets
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// headers
+.h1,
+h1 {
+  @include headers(48px);
+}
+
+.h3,
+h3 {
+  @include headers(20px);
+}
+
+.h4,
+h4 {
+  @include headers(18px);
+}
+
+.h5,
+h5 {
+  @include headers(16px);
+}
+
+.h5,
+h5 {
+  @include headers(14px);
+}
+
+p,
+span {
+  @include paragraphs;
+}
+
+//font-weights
+
+.font-normal {
+  font-weight: weights(normal);
+}
+
+.font-bold {
+  font-weight: weights(bold);
+}
+
+.font-bolder {
+  font-weight: weights(bolder);
+}
+
+.list {
+  @include display($md, none);
+}
+
+.togler {
+  @include dis2($md, none);
+  @include display($md, block);
+}
+
+.text1 {
+  @include width($lg, 80%);
+}
+
+.g-20 {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+.apply {
+  @include width($sm, 100%);
+}
+
+.br1 {
+  @include images("../images/stroke1.JPG");
+}
+
+.br2 {
+  @include images("../images/brushgreen.png");
+}
+
+.br3 {
+  @include images("../images/brushgray.png");
+}
+
+.br4 {
+  @include images("../images/brora.png");
+}
+
+.br5 {
+  @include images("../images/brush blue.png");
+}
+
+.collabo {
+  @include flex($sm, column);
+
+  div {
+    @include width($sm, 100%);
+  }
+}
+
+.a {
+  @include order(1, $sm);
+}
+
+.b {
+  @include order(2, $sm);
+}
+
+.c {
+  @include order(3, $sm);
+}
+
+.d {
+  @include order(4, $sm);
+}
+
+.tab3 {
+  @include flex($sm, column);
+}
+
+.images {
+  @include flex($sm, column);
+}
+
+.ariel {
+  @include flex($sm, column);
+}
+
+.profil {
+  @include flex($md, column);
+
+  div {
+    @include width($md, 100%);
+  }
+}
+
+.dn-sm {
+  @include display($sm, none);
+}
+
+.dn-md {
+  @include display($md, none);
+}
+
+.dn {
+  @include dis2($sm, none);
+}
+
+.child1 {
+  @include flex($sm, column);
+
+  div {
+    @include width($sm, 100%);
+  }
+}
+
+@for $i from 1 through 12 {
+  $width: percentage($i / 12);
+
+  .col-#{$i} {
+    width: $width;
+  }
+}
+
+@media screen and (min-width: $lg) {
+  @for $i from 1 through 12 {
+    $width: percentage($i / 12);
+
+    .col-#{$i}-xl {
+      width: $width;
+    }
+  }
+}
+
+@media screen and (max-width: $lg) {
+  @for $i from 1 through 12 {
+    $width: percentage($i / 12);
+
+    .col-#{$i}-lg {
+      width: $width;
+    }
+  }
+}
+
+@media screen and (max-width: $md) {
+  @for $j from 1 through 12 {
+    $width: percentage($j / 12);
+
+    .col-#{$j}-md {
+      width: $width;
+    }
+  }
+}
+
+@media screen and (max-width: $sm) {
+  @for $j from 1 through 12 {
+    $width: percentage($j / 12);
+
+    .col-#{$j}-sm {
+      width: $width;
+    }
+  }
+}

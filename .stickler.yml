@@ -1,0 +1,13 @@
+linters:  
+       stylelint:
+           config: 'stylelint.config.js'
+files:
+    ignore:
+       - 'styles/_classes.scss'
+       - 'styles/_colors.scss'
+       - 'styles/_grid.scss'
+       - 'styles/_mixins.scss'
+       - 'styles/style.scss'
+fixers:
+    enable: true
+  
