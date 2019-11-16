@@ -1,6 +1,5 @@
 .h2,
 h2 {
-  font-family: maven pro;
   font-weight: 700;
   font-size: 38px;
   padding: 10px 0 10px 0;
@@ -70,7 +69,6 @@ a:hover {
 }
 
 .na-logo {
-  font-family: maven pro;
   font-size: 38px;
   font-weight: 700;
   font-style: normal;
@@ -982,7 +980,7 @@ span {
   .col-11-sm {
     width: 91.66667%;
   }
-  
+
   .col-12-sm {
     width: 100%;
   }
