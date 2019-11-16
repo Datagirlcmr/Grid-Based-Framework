@@ -87,7 +87,6 @@ a:hover {
   color: #fff;
   margin-right: 30px;
   margin-top: 15px;
-  font-family: Montserrat;
 }
 
 .text-mic {
@@ -108,10 +107,6 @@ a:hover {
 
 .text-primary {
   color: blue;
-}
-
-.text-secondary {
-  color: red;
 }
 
 .text-secondary {
@@ -352,7 +347,6 @@ a:hover {
   background-color: #ffc107;
   font-size: 48px;
   border-radius: 5px;
-  font-family: Domine;
   font-weight: 700;
   font-style: normal;
   font-stretch: normal;
@@ -495,7 +489,6 @@ td {
 .h1,
 h1 {
   font-size: 48px;
-  font-family: Domine;
   font-weight: 700;
   font-style: normal;
   font-stretch: normal;
@@ -506,7 +499,6 @@ h1 {
 .h3,
 h3 {
   font-size: 20px;
-  font-family: Domine;
   font-weight: 700;
   font-style: normal;
   font-stretch: normal;
@@ -517,7 +509,6 @@ h3 {
 .h4,
 h4 {
   font-size: 18px;
-  font-family: Domine;
   font-weight: 700;
   font-style: normal;
   font-stretch: normal;
@@ -528,17 +519,6 @@ h4 {
 .h5,
 h5 {
   font-size: 16px;
-  font-family: Domine;
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.27;
-  letter-spacing: normal;
-}
-
-.h5 {
-  font-size: 14px;
-  font-family: Domine;
   font-weight: 700;
   font-style: normal;
   font-stretch: normal;
@@ -553,7 +533,6 @@ span {
   color: #fff;
   margin-right: 30px;
   margin-top: 15px;
-  font-family: Montserrat;
 }
 
 .font-normal {
