@@ -10,7 +10,7 @@
    <a href="https://github.com/Datagirlcmr/Grid-Based-Framework"><strong>Explore the docs »</strong></a>
    <br />
    <br />
-   <a href="https://rawcdn.githack.com/Datagirlcmr/New-York-Times/b89aed96d33c452ed3af840b5b90c6df253f244a/index.html"> :wink: View Demo </a> 
+   <a href="https://rawcdn.githack.com/Datagirlcmr/Grid-Based-Framework/45cf171de1cf36b8f08a641b5cc7829ddbf9f493/index.html"> :wink: View Demo </a> 
  </p>
 </p>
 <h2 align="center">Tools and Technologies Used<h2>
