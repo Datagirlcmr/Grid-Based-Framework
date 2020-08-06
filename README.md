@@ -23,7 +23,15 @@
   <li>Linter and Stickler :for validation</li>
   <li>Vs code : for coding</li>
  </ul>
-<!-- TABLE OF CONTENTS -->
+
+<h2> Future Features </h2>
+<ul> 
+ <li> define classes for display </li>
+ <li> define classes for borders</li>
+ <li> define classes for text-transformation</li>
+ <li> define classes for font-family </li>
+ <li> define classes for list-style-type</li>
+</ul>
 
 ## Contact
 Selma Ndi :woman: - [Github profile](https://github.com/Datagirlcmr)
