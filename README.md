@@ -1,20 +1,20 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Issues][issues-shield]][issues-url]
 <br />
-<p align="center">
+<div align="center">
  <h3 align="center">The Project was made by - TRESOR / SELMA</h3>
- <p align="center">
+ <div align="center">
    last microverse HTML and CSS project</br>
-   Design our own grid based framework and clone the microverse landing page
+   Designed a grid based framework and used the framework to clone the microverse landing page. The original microverse page can be found <a href="https://www.microverse.org/"> here </a>
    <br />
    <a href="https://github.com/Datagirlcmr/Grid-Based-Framework"><strong>Explore the docs »</strong></a>
    <br />
    <br />
-   <a href="https://rawcdn.githack.com/Datagirlcmr/Grid-Based-Framework/fc3b8b29238caae65c455421945806fafeeb0f03/index.html"> :wink: View Demo </a> 
+   <p><a href="https://rawcdn.githack.com/Datagirlcmr/Grid-Based-Framework/fc3b8b29238caae65c455421945806fafeeb0f03/index.html"> :wink: View Demo </a> </p>
    <img src="https://live.staticflickr.com/65535/50194404263_4f0015615a_z.jpg" alt="screenshot" >
    
- </p>
-</p>
+ </div>
+</div>
 <h2 align="center">Tools and Technologies Used<h2>
  <ul>
   <li>HTML : for markup</li>
