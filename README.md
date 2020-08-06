@@ -11,7 +11,7 @@
    <br />
    <br />
    <a href="https://rawcdn.githack.com/Datagirlcmr/Grid-Based-Framework/fc3b8b29238caae65c455421945806fafeeb0f03/index.html"> :wink: View Demo </a> 
-   <img src="https://www.flickr.com/photos/189602193@N07/50194404263/" alt="screenshot" >
+   <img src="https://live.staticflickr.com/65535/50194404263_4f0015615a_z.jpg" alt="screenshot" >
    
  </p>
 </p>
